@@ -1,0 +1,143 @@
+{
+  "measuredAt": "2026-09-27T17:59:28.599Z",
+  "environment": {
+    "os": "win32 10.0.26100",
+    "cpu": "Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz",
+    "logicalCpuCount": 12,
+    "totalMemoryBytes": 16868167680,
+    "freeMemoryBytesAtSummary": 2867380224,
+    "node": "v24.21.0",
+    "hardhat": "2.29.1",
+    "kubo": "0.43.1",
+    "chainId": 31337
+  },
+  "deployment": {
+    "gasUsed": 2821779,
+    "latencyMs": 84.455,
+    "simulatedCostEth": "0.003810196897866675"
+  },
+  "averageTransactionGas": 139533,
+  "maximumThroughput": 631.717,
+  "scalabilityRuns": 16,
+  "scalabilityErrors": 0,
+  "transactions": [
+    {
+      "operation": "patient registration",
+      "gasUsed": 204857,
+      "latencyMs": 60.488,
+      "simulatedCostEth": "0.000268488658079285"
+    },
+    {
+      "operation": "doctor registration",
+      "gasUsed": 252981,
+      "latencyMs": 63.637,
+      "simulatedCostEth": "0.000321805306274022"
+    },
+    {
+      "operation": "hospital registration",
+      "gasUsed": 229446,
+      "latencyMs": 63.043,
+      "simulatedCostEth": "0.000284130639101358"
+    },
+    {
+      "operation": "doctor approval",
+      "gasUsed": 29013,
+      "latencyMs": 78.916,
+      "simulatedCostEth": "0.000035070031099215"
+    },
+    {
+      "operation": "hospital approval",
+      "gasUsed": 28967,
+      "latencyMs": 63.271,
+      "simulatedCostEth": "0.000034259230317233"
+    },
+    {
+      "operation": "record creation",
+      "gasUsed": 253914,
+      "latencyMs": 63.275,
+      "simulatedCostEth": "0.000294510614837964"
+    },
+    {
+      "operation": "permission grant",
+      "gasUsed": 190274,
+      "latencyMs": 64.352,
+      "simulatedCostEth": "0.000216925120345262"
+    },
+    {
+      "operation": "DApp access log",
+      "gasUsed": 35081,
+      "latencyMs": 78.293,
+      "simulatedCostEth": "0.000039384376692887"
+    },
+    {
+      "operation": "permission revoke",
+      "gasUsed": 31264,
+      "latencyMs": 64.257,
+      "simulatedCostEth": "0.000034620313642688"
+    }
+  ],
+  "fileBenchmarks": [
+    {
+      "sizeMiB": 1,
+      "encryptionMs": 2.316,
+      "decryptionMs": 2.058,
+      "uploadMs": 49.343,
+      "downloadMs": 12.137
+    },
+    {
+      "sizeMiB": 5,
+      "encryptionMs": 5.098,
+      "decryptionMs": 5.82,
+      "uploadMs": 84.314,
+      "downloadMs": 36.548
+    },
+    {
+      "sizeMiB": 10,
+      "encryptionMs": 12.248,
+      "decryptionMs": 12.399,
+      "uploadMs": 122.01,
+      "downloadMs": 78.857
+    },
+    {
+      "sizeMiB": 20,
+      "encryptionMs": 22.684,
+      "decryptionMs": 26.693,
+      "uploadMs": 194.7,
+      "downloadMs": 164.045
+    }
+  ],
+  "scalability": [
+    {
+      "concurrency": 1,
+      "completed": 500,
+      "throughput": 53.953,
+      "averageLatencyMs": 18.535,
+      "cpuPercent": 13.316,
+      "rssBytes": 234184704
+    },
+    {
+      "concurrency": 5,
+      "completed": 500,
+      "throughput": 185.213,
+      "averageLatencyMs": 5.399,
+      "cpuPercent": 9.853,
+      "rssBytes": 234762240
+    },
+    {
+      "concurrency": 10,
+      "completed": 500,
+      "throughput": 347.282,
+      "averageLatencyMs": 2.88,
+      "cpuPercent": 11.947,
+      "rssBytes": 236109824
+    },
+    {
+      "concurrency": 20,
+      "completed": 500,
+      "throughput": 608.671,
+      "averageLatencyMs": 1.643,
+      "cpuPercent": 15.095,
+      "rssBytes": 236670976
+    }
+  ]
+}
